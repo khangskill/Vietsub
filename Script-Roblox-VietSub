@@ -12,7 +12,7 @@ tab.newButton( "Arceus", "Prints Hello!", function()
 end)
 
 tab.newButton("Script-VietSub", "khangnguyen-Vietsub", function()
-    loadstring(game:HttpGet(" https://raw.githubusercontent.com/khangskill/Vietsub/main/Roblox-Script-VietSub"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/khangskill/Vietsub/main/Roblox-Script-VietSub"))();
 end)
 
 local tab = DrRayLibrary.newTab("bloxfruit-Vietsub", "ImageIdHere")
