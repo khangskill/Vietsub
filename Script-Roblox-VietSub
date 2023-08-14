@@ -1,0 +1,26 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("DrRay", "Default")
+
+local tab = DrRayLibrary.newTab("Roblox-VN-Vietsub", "ImageIdHere")
+
+tab.newButton("F-Fly", "Bay Lên!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+tab.newButton( "Arceus", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end)
+
+tab.newButton("Script-VietSub", "khangnguyen-Vietsub", function()
+    loadstring(game:HttpGet(" https://raw.githubusercontent.com/khangskill/Vietsub/main/Roblox-Script-VietSub"))();
+end)
+
+local tab = DrRayLibrary.newTab("bloxfruit-Vietsub", "ImageIdHere")
+
+tab.newButton("khang hub", "by khang", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/khangskill/Roblox-game/main/khang-hub-viet-hoa"))();
+end)
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
